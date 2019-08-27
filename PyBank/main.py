@@ -58,7 +58,7 @@ print(f"Greatest Decrease in Profits: {date[maxloss_index+1]} $({maxloss})")
 #-----------------------WRITE---------------------------
 output_file = os.path.join("RR_output_file.txt")
 
-with open(output_file, "w") as textfile:
+with open(output_file, "w", newline="") as textfile:
 
 
     textfile.write("Financial Analysis")
